@@ -1,0 +1,209 @@
+/*! GLOBAL STYLES */
+
+html {
+  font-family: "Quicksand", sans-serif;
+}
+
+
+/* ? COLORS ----------------------------------------------------*/
+
+.trusted {
+  background-color: #8bc220;
+}
+
+.controller {
+  background-color: #ff0000;
+}
+
+.honored {
+  background-color: rgb(0, 71, 178);
+}
+
+.honoredplusplus {
+  background-color: rgb(102, 163, 224);
+}
+
+.royalyellow {
+    color: #ffbb48;
+}
+
+
+/*?  NAVAGATION BAR  -----------------------------------------------------*/
+
+
+.navbar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.navbar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.navbar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+
+/*? ELEMENT STYLES --------------------------------------------------------------*/
+
+section {
+  padding: 32px;
+}
+
+footer {
+  background-color: #aaa;
+  padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+/*? BUTTON STYLES ---------------------------------------------------------------*/
+
+.buybutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buybutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buybutton span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buybutton:hover span {
+  padding-right: 25px;
+}
+
+.buybutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/*? FLEXBOX STYLES ---------------------------------------------------------------*/
+
+.row {
+  display: flex;
+}
+
+.column {
+  text-align: center;
+  flex: 50%;
+  padding: 15px;
+}
+
+.bordersection {
+  border-right: 3px solid #777;
+}
+
+
+/*? PADDING AND MARGIN FIXES/STYLES ----------------------------------------------- */
+
+.left {
+  float: left;
+  text-align: left;
+}
+
+.center {
+  float: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space {
+  margin: 10px;
+  padding: 10px;
+}
+
+.iframes {
+  margin: 50px;
+}
+
+.number {
+  font-size: 300%;
+}
+
+.inline {
+  display: inline-block;
+}
+
+/*? SITE FEATURES -----------------------------------------------------------------------------------*/
+
+.feature{
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+}
+
+.person {
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: 30px;
+  padding: 15px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contrast {
+  background-color: #eee;
+  padding: 32px;
+}
+
+
+/*?  OTHER STYLES --------------------------------------------------------------------------------------*/
+
+#bannerimage {
+  width: 100%;
+  background-image: url("../images/ChromoBanner.png");
+  height: 405px;
+  background-position: center;
+}
+
+.promote {
+  background-color: rgb(233, 188, 91);
+  padding: 10px;
+  font-weight: bold;
+  display: block;
+}
+
+.discordbox {
+    margin: 290px;
+    text-align: center;
+}
