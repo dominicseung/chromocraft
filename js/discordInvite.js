@@ -149,7 +149,7 @@ var discordInvite =
 	})();
 
 discordInvite.init({
-	inviteCode: "X86UfTX",
+	inviteCode: "vQ7tkdJPjP",
 	title: "Chromocraft"
 });
 
